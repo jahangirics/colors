@@ -1,0 +1,33 @@
+@font-face {
+    font-family: sahel;
+    src: url("fonts/Sahel.ttf");
+}
+body{
+    height: 100vh;
+    font-family: sahel;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    direction: rtl;
+    
+}
+
+.parent{
+    height: 400px;
+    width: 400px;
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr  ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.item{
+    margin: 1px;
+    border-radius: 8px ;
+    background-color: lightcoral;
+
+    
+}
